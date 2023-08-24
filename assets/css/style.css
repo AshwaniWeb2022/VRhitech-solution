@@ -1,67 +1,4 @@
-/*---------------------------------------------
-/////  TownGov HTML  /////
-----------------------------------------------*/
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-* Variable
-* Animations
-* Google Map
-* Search Popup
-* Common
-* Scoll to top
-* Pre-loader
-* Accordian
-* Sidebar
-* Topbar
-* Topbar-one
-* Header
-* Main-menu
-* Main-menu-one
-* Main-slider
-* Main-slider-two
-* Department
-* Department-one
-* Department-two
-* Department-details
-* Page banner
-* About
-* About-one
-* About-two
-* Team
-* Team-details
-* News
-* News-details
-* causes
-* causes-details
-* Service
-* Service-one
-* Service-two
-* Service-details
-* Funfact
-* Mayor
-* Portfolio
-* Portfolio-two
-* Portfolio-details
-* Client-Carousel
-* Testimonial
-* Testimonial-two
-* Contact
-* Event
-* Event-two
-* Event-three
-* Event-details
-* Blog
-* Cta
-* Cta-one
-* Cta-two
-* Cta-three
-* Cta-four
-* Footer
-* Bottom-footer
-* Mobile Nav
-* Search-popup
---------------------------------------------------------------*/
+
 :root{
 	--thm-primary: #2dcd7c;
 	--thm-primary-rgb: 45, 205, 124;
@@ -91,7 +28,7 @@ body{
 	font-size: 16px;
 	line-height: 1.5em;
 	font-weight: 500;
-	color: var(--thm-gray) ;
+	color: var(--thm-gray) ;  
 	border: none;
 }
 body.locked {
