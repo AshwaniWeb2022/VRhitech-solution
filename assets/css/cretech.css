@@ -1007,7 +1007,7 @@ a:visited {
   padding: 0;
   list-style: none;
   position: absolute;
-  min-width: 220px;
+  min-width: 250px;
   background-color: #fff;
   opacity: 0;
   visibility: hidden;
