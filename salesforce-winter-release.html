@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR HI TECH SOLUTIONS</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+        rel="stylesheet">
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <!-- plugins css -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/vendors/cretech-icons/style.css">
+    <!-- templates css -->
+    <link rel="stylesheet" href="assets/css/cretech.css">
+</head>
+
+<body class="custom-cursor">
+    <div class="page-wrapper">
+        <div class="topbar">
+            <div class="container-fluid">
+                <p class="topbar__text"></p>
+                <ul class="topbar__info">
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:info@codmsoftware.com">info@codmsoftware.com</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        4501 Nightland Dr, Plano, Texas-75024
+                    </li>
+                </ul>
+                <ul class="topbar__social">
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/vrhitechsolutions"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="main-menu sticky-header">
+            <div class="container-fluid">
+                <div class="main-menu__logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo-dark.png" width="98" height="33" alt="VR HI TECH SOLUTION">
+                    </a>
+                </div>
+
+                <ul class="main-menu__list">
+                    <li class="menu-item-has-children">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">company</a>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Services</a>
+                        <ul>
+                            <li><a href="IT-Staffing.html">IT Staffing</a></li>
+                            <li><a href="salesforce-services.html">Salesforce</a></li>
+                            <li><a href="Software-development.html">Software development</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li><a href="contact.html">Contact US</a></li>
+                </ul>
+
+                <div class="main-menu__right">
+                    <a href="#" class="mobile-nav__toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <a href="tel:+1 (201)-623-3132" class="main-menu__cta">
+                        <i class="fa fa-phone-alt"></i>
+                        <span class="main-menu__cta__text">
+                            <b>+1 (201)-623-3132</b>
+                            Call Anytime
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="page-header">
+            <div class="page-header__bg"
+                style="background-image: url(assets/images/background/page-header-bg-1-1.jpg);"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <ul class="thm-breadcrumb list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li>BLOG</li>
+                </ul>
+                <h2 class="page-header__title">Salesforce Winter 23 Release</h2><!-- /.page-header__title -->
+            </div><!-- /.container -->
+        </div><!-- /.page-header -->
+
+        <section class="section-padding--top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="section-title__title"><b>1. Create Overlays with the New Model Component:</b> </h1>
+                        <p>Use Models to interrupt a user’s workflow and draw attention to an important message. A
+                            Model, which displays the message on top of the current app window, requires a user to
+                            interact with it to regain control over the app.</p>
+
+                        <p>To create a Model component, import LightningModel from lightning/Model in your JavaScript
+                            file. Then, create a component class that extends LightningModel</p>
+
+                        <img src="assets/images/blog/winter23-1.png" alt="" class="py-2 w-100">
+
+                        <p>This component doesn’t use a lightning-Model tag. Instead, the Model’s HTML template uses
+                            helper lightning-Model-components to make the Model’s header, footer, and body. The
+                            lightning-Model-body component is required, and the others are optiona</p>
+
+                        <img src="assets/images/blog/winter23-2.png" alt="" class="py-2 w-100">
+
+                        <h2 class="section-title__title pt-4 pb-4">2. Fix Invalid Template Usage to Avoid Warning When Component
+                            Loading:</h2>
+
+                        <p>Loading an LWC component results in a warning if your component includes a  &lt;template&gt;  element
+                                with an invalid attribute. On non-root &lt;template&gt; elements, only for:each,
+                                    iterator:iteratorName and if:true|false directives are supported. Salesforce
+                                    recommends that you fix your component template to remove invalid attributes in your
+                                    &lt;template&gt; element.</p>
+
+                        <p>In Spring’23, this invalid usage of the &lt;template&gt; element doesn’t render correctly and
+                                loading a component that contains this invalid usage will result in an error.For
+                                example, the non root &lt;template&gt; element in this example contains an invalid attribute.
+                        </p>
+
+                        <img src="assets/images/blog/winter23-3.png" alt="" class="py-2 w-100">
+
+                        <p>To fix the warning and make sure that your component continues to load correctly in future
+                            releases, remove the invalid attribute or use another element like
+                            &lt;div&gt; or &lt;span&gt;, depending on your use case.</p>
+
+
+                                <img src="assets/images/blog/winter23-4.png" alt="" class="py-2 w-100">
+
+                                <h2 class="section-title__title pt-4 pb-4">3.Be Ready for Multi-Factor Authentication Auto-Enablement:</h2>
+                                <p>The requirement to use multi-factor authentication (MFA) when accessing Salesforce products went into effect on February 1, 2022. All users must now use MFA when they login to Salesforce, whether they’re logging in directly or using single sign-on (SSO). To help customers satisfy this requirement, in the first half of 2023, Salesforce is automatically enabling MFA for direct logins. In the September 2023 timeframe, we’re enforcing MFA by making it a permanent part of the Salesforce login process. To avoid disruptions to your users when these milestones occur, enable MFA as soon as possible.</p>
+                                <p><b>Salesforce Flow Enhancements:</b>There are several enhancements in Salesforce Flow as follows:</p>
+                                <div><b>1.Cut and Paste Flow Elements:</b>Change the order of flow elements auto-layout faster by using cut and paste. Previously, to move an element on the canvas, you copied and pasted the element then deleted the original element, and then you updated the API name of the pasted element.</div>
+                                <div class="pt-2"><b>2.Use Formula Builder in Flow Resources and Collection Filter Elements</b>You can now use an enhanced formula builder in Flow Formula-type resources and the Collection Filter element. The builder guides you through the syntax so that you can create an expression more easily. Instead of waiting until you save a flow, you can check the formula syntax and catch errors as you work. </div>
+
+                                <img src="assets/images/blog/winter23-5.png" alt="" class="py-2 w-100">
+
+                                <div><b>3. Select Multiple Records in the Lookup Flow Screen Component:</b>Now you can search and then select more than one record with the Lookup flow screen component. You can specify a selection maximum and one or more default records.</div>
+                                <div class="pt-2">Add the Lookup component to your screen flow and set the Maximum Selections field to a value greater than.</div>
+                                <img src="assets/images/blog/winter23-6.png" alt="" class="py-2 w-100">
+                                <div><b>4. Use Record-Triggered Flows to Update Related Records:</b> Now you can use record-triggered flows to update any records related to the triggering record.</div>
+                                <div class="pt-2"><b>5. Launch Screen Flows With Lightning Web Components:</b> Embed a screen flow from any Lightning Web Component with the new lightning-flow component. Developers can supercharge their flows by customizing finish behavior, setting custom styling, or launching flows from their Lightning Web Components. And they can offload complex input collection and branching logic to Flow, saving time and money.</div>
+                                <div class="pt-2">The example shows an LWC component with the Survey_customers flow API name.</div>
+                                <img src="assets/images/blog/winter23-7.png" alt="" class="py-2 w-100">
+
+                                <p><b>6. Use In and Not In Operators in Flows to Find Related Records: </b>With the new In and Not In operators, a flow accesses a collection of primitive values to get related records without using the Loop element. The flow uses fewer SOQL queries and DML statements and performs faster. The new operators support accessing collections of type Text, Number, Date, Date/Time, Currency, and Boolean. The operators are available in the Get Records, Update Records, and Delete Records elements.</p>
+                                <img src="assets/images/blog/winter23-8.png" alt="" class="py-2 w-100">
+                                <p><b>7. Test One, Two, Three, Flow (Generally Available):</b>Before you activate a record-triggered flow, you can now test it to quickly verify its expected results and identify flow run-time failures. In Flow Builder, you create, save, and run flow tests. Previously, you debugged a flow manually to troubleshoot failures each time they occurred. Now, you create and save a flow test from a debug run. Then each time you modify the flow, you can run the test. Flow tests don’t support flows that run when a record is deleted. This feature, now generally available, includes some changes since the last release. Flow tests now support scheduled paths. Previously, flow tests supported only paths that run immediately. Packaging is now supported.</p>
+                                <p><b>8. Filter Your Picklists By Record Type in Flow Screens: </b>Now you only see relevant picklist values when using Dynamic Forms for Flow. Previously, all the picklist values for a field appeared, regardless of whether a record type was provided, and could show irrelevant values.</p>
+                                <p><b>9. Select Multiple Records from a Table in a Flow Screen:</b> Leverage the new Data Table (beta) flow screen component to display a list of records on a flow screen. You can set the table to read-only, or enable your users to select one or more records and use their selections later in the flow. And users can change the width of table columns and wrap or truncate overflowing text.</p>
+                                <p>Add the Data Table (beta) component to your screen flow and configure the fields.</p>
+                                <img src="assets/images/blog/winter23-9.png" alt="" class="py-2 w-100">
+
+
+                        </div>
+
+                        <div class="col-lg-4">
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+
+
+
+
+        <div class="footer-main section-padding--bottom section-padding--top">
+            <div class="container">
+                <div class="row gutter-y-30">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget footer-widget--about">
+                            <a href="index.html" class="footer-widget__logo">
+                                <img src="assets/images/logo-light.png" width="119" height="40" alt="Cretech">
+                            </a>
+                            <p class="footer-widget__text">We work with a passion of taking challenges and creating new
+                                ones in advertising sector.</p><!-- /.footer-widget__text -->
+                            <ul class="mobile-nav__social">
+                                <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/vrhitechsolutions"><i
+                                            class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+                            </ul><!-- /.mobile-nav__social -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget footer-widget--links">
+                            <h3 class="footer-widget__title">Services</h3><!-- /.footer-widget__title -->
+                            <ul class="footer-widget__links">
+                                <li>
+                                    <a href="IT-Staffing.html">IT Staffing</a>
+                                </li>
+                                <li>
+                                    <a href="salesforce-services.html">Salesforce</a>
+                                </li>
+                                <li>
+                                    <a href="Software-development.html">Software development</a>
+                                </li>
+                            </ul><!-- /.footer-widget__links -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget footer-widget--newsletter">
+                            <h3 class="footer-widget__title">Subscribe</h3><!-- /.footer-widget__title -->
+                            <p class="footer-widget__text">Sign up to receive the latest articles</p>
+                            <!-- /.footer-widget__text -->
+                            <form action="#" class="footer-widget__newsletter mc-form"
+                                data-url="ADD_YOUR_MAILCHIMP_FORM_URL_HERE">
+                                <input type="email" name="EMAIL" placeholder="Enter Your Email">
+                                <button class="thm-btn footer-widget__newsletter__btn"><span>Register</span></button>
+                            </form>
+                            <div class="mc-form__response"></div><!-- /.mc-form__response -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget footer-widget--contact">
+                            <h3 class="footer-widget__title">Contact Us</h3><!-- /.footer-widget__title -->
+
+                            <ul class="mobile-nav__contact list-unstyled">
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <a href="tel:+1 (201)-623-3132">+1 (201)-623-3132</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="mailto:info@codmsoftware.com">info@codmsoftware.com</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-map-marker-alt"></i>
+                                    4501 Nightland Dr, Plano, Texas-75024
+                                </li>
+                            </ul><!-- /.mobile-nav__contact -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.footer-main -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; All Copyright <span class="dynamic-year"></span> by VRHitech Solutions</p>
+            </div><!-- /.container -->
+        </div><!-- /.footer-bottom -->
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <a href="#" class="mobile-nav__close mobile-nav__toggler">
+                <span></span>
+                <span></span>
+            </a>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="98"
+                        height="33" alt="Cretech"></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-phone"></i>
+                    <a href="tel:+1 (201)-623-3132">+1 (201)-623-3132</a>
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@codmsoftware.com">info@codmsoftware.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker-alt"></i>
+                    4501 Nightland Dr, Plano, Texas-75024
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <ul class="mobile-nav__social">
+                <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/vrhitechsolutions"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+            </ul><!-- /.mobile-nav__social -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <span><i class="icon-magnifying-glass"></i></span>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+
+    <!-- plugins js -->
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jquery-validation/jquery.validate.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/lettering-js/jquery.lettering.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/youtube-popup/youtube-popup.jquery.js"></script>
+    <script src="assets/vendors/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+    <!-- template js -->
+    <script src="assets/js/cretech.js"></script>
+
+</body>
+
+</html>
